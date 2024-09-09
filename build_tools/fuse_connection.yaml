@@ -13,4 +13,5 @@ libfuse:
 
 azstorage: 
   account-name: eliasteststorageaccount1
+  account-key: 57xwNRrljNIspZGK+fYN8AwT+5buSlImYKczT81x75oGZFh1YEs2V3rERGZCM4oWa8wX/FBwIUJ/+ASt3y3PaQ==
   container: ccache-container   
