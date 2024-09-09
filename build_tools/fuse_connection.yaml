@@ -1,0 +1,17 @@
+logging: 
+  type: syslog 
+  level: LOG_INFO 
+  
+components: 
+  - libfuse 
+  - attr_cache 
+  - azstorage 
+
+libfuse: 
+  path: /mnt/azureblob 
+  allow-other: true
+
+azstorage: 
+  account-name: eliasteststorageaccount1
+  account-key: ${{ secrets.CCACHE_KEY }}
+  container: ccache-container   
