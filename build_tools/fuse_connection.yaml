@@ -13,5 +13,4 @@ libfuse:
 
 azstorage: 
   account-name: eliasteststorageaccount1
-  account-key: ${{ secrets.CCACHE_KEY }}
   container: ccache-container   
